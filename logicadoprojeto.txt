@@ -1,0 +1,41 @@
+Estrutura de Dados:
+
+Territorio: struct com nome, cor e número de tropas
+
+Vetor de strings com as missões pré-definidas
+
+Funções Principais:
+
+atribuirMissao: sorteia e copia uma missão para o jogador
+
+verificarMissao: implementa lógica para cada tipo de missão
+
+atacar: simula batalha com dados aleatórios
+
+exibirMapa: mostra o estado atual do jogo
+
+liberarMemoria: desaloca toda memória reservada
+
+Fluxo do Jogo:
+
+Inicializa missões aleatórias para cada jogador
+
+Cria mapa com territórios aleatórios
+
+Simula turnos com ataques aleatórios
+
+Verifica missão ao final de cada turno
+
+Declara vencedor quando uma missão é cumprida
+
+Gerenciamento de Memória:
+
+Uso de malloc/calloc para alocação dinâmica
+
+free para liberar memória ao final
+
+Validações:
+
+Só permite ataque entre territórios de cores diferentes
+
+Verifica condições específicas para cada tipo de missão
